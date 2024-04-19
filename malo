@@ -1,5 +1,6 @@
-calcular_velocidad
-	Definir distancia, tiempo, velocidad como caracter
+Algoritmo calcular_velocidad
+		
+		Definir distancia_tiempo_velocidad como Real
 		
 		Escribir "Ingrese la distancia recorrida (en kilómetros):"
 		Leer distancia
@@ -7,6 +8,8 @@ calcular_velocidad
 		Escribir "Ingrese el tiempo empleado (en horas):"
 		Leer tiempo
 		
-		velocidad . distancia / tiempo
+		velocidad <- distancia / tiempo
 		
-		Escribir "La velocidad promedio es:", velocidad, 
+		Escribir "La velocidad promedio es:", velocidad, "km/h"
+		
+FinAlgoritmo
